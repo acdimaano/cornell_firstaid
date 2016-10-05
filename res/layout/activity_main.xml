@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fistaid_background1"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.firstaid.MainActivity" >
+
+    <Button
+        android:id="@+id/btnHeart"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_heart"
+        android:gravity="center"
+        android:onClick="btnHeart" />
+
+    <Button
+        android:id="@+id/btnFracture"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/btnHeart"
+        android:layout_below="@+id/btnHeart"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_fracture"
+        android:gravity="center"
+        android:onClick="btnFracture" />
+
+    <Button
+        android:id="@+id/btnBurn"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btnFracture"
+        android:layout_alignLeft="@+id/btnHeart"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_burn"
+        android:onClick="btnBurn" />
+
+    <Button
+        android:id="@+id/btnPoison"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btnBurn"
+        android:layout_alignLeft="@+id/btnHeart"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_poison"
+        android:onClick="btnPoison" />
+    
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/btnPoison"
+        android:layout_alignLeft="@+id/btnHeart"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_feedback"
+        android:onClick="btnFeedback" />
+    
+</RelativeLayout>

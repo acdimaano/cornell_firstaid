@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popup_window"
+    android:padding="20sp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp" >
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_close"
+            android:onClick="btnClose" />
+
+     </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnPoison1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_window"
+        android:drawableLeft="@drawable/popupicon"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:onClick="btnPoison1"
+        android:text="@string/popup_poison1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnPoison2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_window"
+        android:drawableLeft="@drawable/popupicon"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:onClick="btnPoison2"
+        android:text="@string/popup_poison2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+    
+     <Button
+        android:id="@+id/btnPoison3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_window"
+        android:drawableLeft="@drawable/popupicon"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:onClick="btnPoison3"
+        android:text="@string/popup_poison3"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+    
+</LinearLayout>
+
