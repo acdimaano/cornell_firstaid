@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstaid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TopicHeart1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicHeart2Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicHeart3Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicFracture1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicFracture2Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicFracture3Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicBurn1Activity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".TopicBurn2Activity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".TopicBurn3Activity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".TopicPoison1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicPoison2Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TopicPoison3Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
